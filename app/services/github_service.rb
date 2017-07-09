@@ -2,6 +2,8 @@ class GithubService
 
   attr_reader :access_token
 
+  # added a comment as master was solved
+
   def initialize(access_hash = nil)
     @access_token = access_hash["access_token"] if access_hash
   end
